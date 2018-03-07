@@ -13,7 +13,7 @@ int lines=0, words=0,characters=0;
 
 main()
 {
-  yyin= fopen("input.txt","r");
+  yyin= fopen("input_punto1.txt","r");
   yylex();
   printf(" This File contains ...");
   printf("\n\t%d lines", lines);
